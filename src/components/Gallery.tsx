@@ -13,7 +13,7 @@ export function Gallery() {
       description: "Jupiter's iconic storm that has been raging for centuries"
     },
     {
-      url: "https://sl.bing.net/jLIGI9wKJwa",
+      url: "https://cdn.mos.cms.futurecdn.net/xVZWjujKWgNUyq2XMegmhU-1200-80.jpg.webp",
       title: "Jupiter and Its Moons",
       description: "The gas giant and some of its largest Galilean moons"
     }
@@ -22,7 +22,7 @@ export function Gallery() {
   return (
     <section id="gallery" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center">Jupiter Gallery</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-white">Jupiter Gallery</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {images.map((image, index) => (
             <div key={index} className="group relative overflow-hidden rounded-lg">
@@ -33,7 +33,7 @@ export function Gallery() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 p-6">
-                  <h3 className="text-xl font-bold mb-2">{image.title}</h3>
+                  <h3 className="text-xl font-bold mb-2 text-white">{image.title}</h3>
                   <p className="text-gray-300">{image.description}</p>
                 </div>
               </div>
