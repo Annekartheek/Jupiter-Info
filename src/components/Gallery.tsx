@@ -13,7 +13,7 @@ export function Gallery() {
       description: "Jupiter's iconic storm that has been raging for centuries"
     },
     {
-      url: "https://www.shutterstock.com/image-illustration/planet-jupiter-some-69-known-moons-1115051534",
+      url: "https://www.shutterstock.com/image-vector/jupiter-moons-vector-educational-poster-scientific-1385322980",
       title: "Jupiter and Its Moons",
       description: "The gas giant and some of its largest Galilean moons"
     }
