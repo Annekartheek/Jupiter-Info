@@ -13,7 +13,7 @@ export function Gallery() {
       description: "Jupiter's iconic storm that has been raging for centuries"
     },
     {
-      url: "https://images.unsplash.com/photo-1630839437035-dac17da580d0?auto=format&fit=crop&q=80",
+      url: "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/2/204_PIA19048.jpg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint",
       title: "Jupiter and Its Moons",
       description: "The gas giant and some of its largest Galilean moons"
     }
